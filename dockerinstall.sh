@@ -11,9 +11,3 @@ chmod +x /usr/local/bin/docker-compose
 
 # Optionally, create a symlink to /usr/bin for easier global access
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-
-# Verify the installation by checking the version
-docker-compose --version
-
-echo "Docker Compose version ${COMPOSE_VERSION} installed successfully!"
-
